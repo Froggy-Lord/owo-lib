@@ -32,7 +32,7 @@ public abstract class EventBinding {
             (this.isKeyPressed(InputConstants.KEY_LSHIFT) || this.isKeyPressed(InputConstants.KEY_RSHIFT) ? InputConstants.MOD_SHIFT : 0)
             | (this.isKeyPressed(InputConstants.KEY_LCONTROL) || this.isKeyPressed(InputConstants.KEY_RCONTROL) ? InputConstants.MOD_CONTROL : 0)
             | (this.isKeyPressed(InputConstants.KEY_LALT) || this.isKeyPressed(InputConstants.KEY_RALT) ? InputConstants.MOD_ALT : 0)
-            | (this.isKeyPressed(InputConstants.KEY_RGUI) || this.isKeyPressed(InputConstants.KEY_RGUI) ? InputConstants.MOD_SUPER : 0)
+            | (this.isKeyPressed(InputConstants.KEY_LGUI) || this.isKeyPressed(InputConstants.KEY_RGUI) ? InputConstants.MOD_SUPER : 0)
             | (this.isKeyPressed(InputConstants.KEY_NUMLOCK) ? InputConstants.MOD_NUM_LOCK : 0)
             | (this.isKeyPressed(InputConstants.KEY_CAPSLOCK) ? InputConstants.MOD_CAPS_LOCK : 0)
         );
